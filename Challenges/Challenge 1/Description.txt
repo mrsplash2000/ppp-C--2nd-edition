@@ -27,4 +27,4 @@ Smallest: 13
 Average: 35.158
 ```
 
-Make sure your code is modularized. One thing to note, this program runs until the user enters q to quit. Good luck and happy coding hours 🤘 🙂
+Make sure your code is modularized. One thing to note, this program runs until the user enters q to quit. Good luck and happy coding hours 🤘🙂
