@@ -14,7 +14,19 @@ of the loop so that you can see what’s going on.
 */
 
 #include <iostream>
+#include <cmath> //For using pow() function
+/*
+iomanip library
+-- std::fixed shows standard decimal notation
+-- std::scientific shows scientific notation
+-- std::setprecision() is used for the decimal points
+*/
+#include <iomanip>
 
 int main() {
+    std::cout << "Square Number\tNumber Of Grains\n";
+    std::cout << "===================================\n";
+    for(int i{0}; i<=63; i++)
+        std::cout << i+1 << "\t\t" << std::fixed << std::setprecision(0) << pow(2,i) << '\n';
     return 0;
 }
